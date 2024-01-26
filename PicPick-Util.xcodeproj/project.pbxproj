@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		B32BB96F2B5B6327000350DE /* PicPick_Util.h in Headers */ = {isa = PBXBuildFile; fileRef = B32BB96E2B5B6327000350DE /* PicPick_Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B32BB9772B5B634B000350DE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB9762B5B634B000350DE /* UIView+Extension.swift */; };
+		B3650CC52B64323B00E95272 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3650CC42B64323B00E95272 /* UILabel+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B32BB96B2B5B6327000350DE /* PicPick_Util.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PicPick_Util.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32BB96E2B5B6327000350DE /* PicPick_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicPick_Util.h; sourceTree = "<group>"; };
 		B32BB9762B5B634B000350DE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B3650CC42B64323B00E95272 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B32BB9762B5B634B000350DE /* UIView+Extension.swift */,
+				B3650CC42B64323B00E95272 /* UILabel+Extension.swift */,
 			);
 			path = "UIKit+Extension";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3650CC52B64323B00E95272 /* UILabel+Extension.swift in Sources */,
 				B32BB9772B5B634B000350DE /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
